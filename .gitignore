@@ -1,0 +1,4 @@
+*~
+*.xcf
+.vscode/
+**/__pycache__/

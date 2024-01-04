@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Apple Garamond';
+    font-weight: 400;
+    src: url('../fonts/AppleGaramond.woff2');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-weight: 700;
+    src: url('../fonts/AppleGaramond-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/AppleGaramond-Italic.woff2');
+}
+
+@font-face {
+    font-family: 'cmu';
+    font-weight: 400;
+    src: url('../fonts/computer-modern/cmunrm.ttf');
+}
+
+@font-face {
+    font-family: 'cmu';
+    font-weight: 700;
+    src: url('../fonts/computer-modern/cmunbx.ttf');
+}
+
+@font-face {
+    font-family: 'cmu';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/computer-modern/cmunci.ttf');
+}
+
+@font-face {
+    font-family: 'cmu_code';
+    src: url('../fonts/computer-modern/cmuntt.ttf');
+}
+
+* {
+    font-family: 'cmu', serif;
+    background-color: #ffffff;
+}
+
+.updates li {
+    margin-bottom: 5px;
+}
+
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+code {
+    font-family: 'cmu_code', monospace;
+}
+
+pre>code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    display: block;
+    background: #F6F6F6;
+
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
+}
+
+p,
+li {
+    font-size: 1.0em;
+    line-height: 1.15em;
+}
+
+.centered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 800px) {
+    * {
+        max-width: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footnote-ref {
+    position: relative;
+}
+
+.custom-tooltip {
+    visibility: hidden;
+    width: 0px;
+    display: none;
+}
+
+@media (min-width: 800px) {
+    
+
+    .custom-tooltip {
+        visibility: hidden;
+        width: 400px;
+        background-color: rgb(255, 255, 255);
+        color: #000;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 10px;
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 0px;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    a:hover .custom-tooltip {
+        visibility: visible;
+    }
+
+}
