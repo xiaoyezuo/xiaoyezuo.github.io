@@ -64,10 +64,8 @@ def build_resume(resume_md: Path, resume_pdf: Path):
     resume_tmp.unlink()
 
 
-resume_md = "resume.md"
-resume_pdf = "KyleVedderResume.pdf"
 
-ignore_files = [resume_md, "README.md", "LICENSE.md"]
+ignore_files = ["README.md", "LICENSE.md"]
 
 # grab all .md files recursively
 md_files = list(Path(".").glob("**/*.md"))
@@ -80,5 +78,3 @@ for ignore_file in [Path(e) for e in ignore_files]:
 # run the rest of the files through pandoc
 for md_file in md_files:
     build_html(md_file)
-
-build_resume(resume_md, resume_pdf)
