@@ -16,7 +16,7 @@ I am fluent in English and Mandarin. This is particularly useful when working wi
 
 ## More Information
 
-- Email: zuoxy (at) seas.upenn.edu
+- Email: zuoxy@seas.upenn.edu
 - Resume: [/resume](XiaoyeZuoResume.pdf)
+- LinkedIn: [Xiaoye Zuo](https://www.linkedin.com/in/xiaoye-zuo-532106186/)
 - GitHub: [xiaoyezuo](https://github.com/xiaoyezuo)
-- LinkedIn:
